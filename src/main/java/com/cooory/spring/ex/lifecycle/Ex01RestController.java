@@ -11,7 +11,7 @@ public class Ex01RestController {
 	
 	// 직접 만든 클래스 객체 리턴
 	@RequestMapping("/3")
-	public  Person objectResponse() {
+	public Person objectResponse() {
 		Person me = new Person("이정현", 26);
 		
 		return me;
