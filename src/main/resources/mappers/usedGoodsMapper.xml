@@ -14,7 +14,7 @@
  			, `price`
  			, `description`
  			, `image`
- 			, `createdAt
+ 			, `createdAt`
  			, `updatedAt`
  		FROM
  			`used_goods`
