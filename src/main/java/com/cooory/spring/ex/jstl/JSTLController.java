@@ -69,6 +69,12 @@ public class JSTLController {
 	}
 	
 	
+	@GetMapping("/ex04")
+	public String ex04() {
+		return "/jstl/ex04";
+	}
+	
+	
 	
 	
 	
