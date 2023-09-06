@@ -22,4 +22,9 @@ public interface UserRepository {
 	
 	
 	public List<User> selectUserList();
+	
+	// 전달된 email과 일치하는 행의 개수를 얻어 오는 기능
+	public int selectCountEmail(@Param("email") String email);
+	
+	
 }
